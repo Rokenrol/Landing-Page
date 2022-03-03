@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 
 body {
@@ -12,6 +14,15 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.navbar {
+    padding-top: 10px;
 }
 
 .navbar, .hero-info, .footer {
@@ -46,11 +57,13 @@ background-color: #1F2937;
 
 .hero-info img {
     max-width: 300px;
+    margin-left: 25px;
 }
 
 .navbar .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-nav {
@@ -58,12 +71,13 @@ background-color: #1F2937;
 }
 
 .top-nav li {
-    margin-left: 50px;    
+    margin-left: 40px;    
 }
 
 .hero-info .container {
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 .sign-up {
@@ -73,4 +87,5 @@ background-color: #1F2937;
     color: white;
     font-weight: 700;
     border: none;
+    margin-top: 5px;
 }
