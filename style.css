@@ -81,11 +81,11 @@ background-color: #1F2937;
 }
 
 .sign-up {
-    padding: 3px 25px;
+    padding: 8px 25px;
     background-color: #3882F6;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     border: none;
     margin-top: 5px;
 }
