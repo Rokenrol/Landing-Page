@@ -176,3 +176,14 @@ background-color: #1F2937;
 .sign-up-call:hover {
     background-color: #2176fd;
 }
+
+.footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .container p {
+    color:#f9faf8;
+}
