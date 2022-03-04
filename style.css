@@ -91,6 +91,11 @@ background-color: #1F2937;
     margin-top: 5px;
 }
 
+.sign-up:hover {
+    background-color: #2176fd;
+    cursor: pointer;
+}
+
 .main {
     flex: 1;
 }
@@ -131,6 +136,7 @@ background-color: #1F2937;
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    text-align:left;
     color: #1F2937;
 }
 
@@ -139,4 +145,34 @@ background-color: #1F2937;
     font-size: 30px;
     font-weight: 700;
     margin-left: 500px;
+}
+
+.call-to-action {
+    flex: 1;
+    padding: 100px 0px;
+}
+
+.action-call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #3882F6;
+    color:#f9faf8;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.sign-up-call {
+    padding: 8px 25px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: 600;
+    border: 2px solid #f9faf8;
+    cursor: pointer;
+}
+
+.sign-up-call:hover {
+    background-color: #2176fd;
 }
